@@ -165,7 +165,7 @@ module.exports.sendThroughMail = function(order, callback){
             <div style='width: 100%;margin-top:5em;display:table; flex-direction:column; justify-content: center; align-items: center;'>
                 <h3 style='display:table-row;'>Ce ati comandat...</h3>
                 <span style='display:table-row;'>Id-ul comenzii: ${order._id}</span>
-                <a style='display:table-row;' href='https://guarded-retreat-42306.herokuapp.com/myorders/${order._id}'>Accesati comanda!</a>
+                <a style='display:table-row;' href='https://create8.onrender.com/myorders/${order._id}'>Accesati comanda!</a>
             </div>
             
             <div style='width: 100%;margin-top:5em;display:table; flex-direction:column; justify-content: center; align-items: center;'>

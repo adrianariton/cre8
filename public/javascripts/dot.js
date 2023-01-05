@@ -2,7 +2,7 @@
 $(document).ready(()=>{
     var cartll = currentCartLength
     if(true){
-        const url = 'https://create.eu-4.evennode.com/'
+        const url = 'https://create8.onrender.com/'
         //const url = 'http://localhost:3000/'
         const socket = io.connect(url);
         $('.modal').modal();
